@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe Inbound Delivery Dialog</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYI01</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYI02</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYI03</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYI04</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYO01</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYO02</SOBJ_NAME>
+    <SOBJ_NAME>LZALI_DLG_INBOUND_DELIVERYTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZALI_DLG_INBOUND_DELIVERY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZALI_DLG_PUTAWAY_ARTICLE</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO ZCL_ALI_INBOUND_DELIVERY_VIEW</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZALI_DLG_PUTAWAY_QUANTITY</FUNCNAME>
+    </item>
+    <item>
+     <FUNCNAME>ZALI_DLG_PUTAWAY_STORAGE_PLACE</FUNCNAME>
+    </item>
+    <item>
+     <FUNCNAME>ZALI_INBOUND_DELIVERY_LOGIN</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO ZCL_ALI_INBOUND_DELIVERY_VIEW</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

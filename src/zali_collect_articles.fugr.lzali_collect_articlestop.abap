@@ -1,0 +1,3 @@
+FUNCTION-POOL ZALI_COLLECT_ARTICLES.           "MESSAGE-ID ..
+
+* INCLUDE LZALI_COLLECT_ARTICLESD...            " Local class definition
